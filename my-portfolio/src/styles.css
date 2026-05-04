@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.container {
+  padding: 20px;
+  min-height: 80vh;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e293b;
+}
+
+.header a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+.header a:hover {
+  color: white;
+}
+
+/* FOOTER */
+.footer {
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #38bdf8;
+  font-size: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.projects div {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* WEATHER */
+.weather {
+  background: #1e293b;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
