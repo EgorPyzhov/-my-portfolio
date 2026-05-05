@@ -14,7 +14,7 @@
     "react-router-dom": "^7.14.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://EgorPyzhov.github.io/-my-portfoilio"
+    "homepage": "https://EgorPyzhov.github.io/-my-portfolio"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
